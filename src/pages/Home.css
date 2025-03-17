@@ -41,6 +41,7 @@
 }
 
 .about-section {
+  flex: 1;
   background-color: white;
   padding: 2rem;
   border-radius: 10px;
@@ -78,9 +79,10 @@
 .about-section p {
   font-size: 1.2rem;
   color: black;
+  line-height: 2;
 }
 .latest-posts-section {
-  flex: 2 1 66%; /* Take up 2/3 of the width */
+  flex: 2; /* Take up 2/3 of the width */
   background-color: white;
   padding: 2rem;
   border-radius: 10px;
@@ -90,7 +92,8 @@
   justify-content: flex-start;
   height: 100%;
   word-wrap: break-word; /* Ensure long words break to the next line */
-  overflow-wrap: break-word; /* Ensure long words break to the next line */
+  overflow-wrap: break-word; 
+  transition: transform 0.3s ease-in-out;
 }
 
 .latest-posts-section:hover {
@@ -110,6 +113,11 @@
   height: 3px;
   background-color: var(--primary-color);
   margin: 1rem auto;
+}
+.latest-posts-section .blog-post-title {
+  font-size: 1.8rem; /* Adjust the font size for blog post titles */
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
 }
 .search-bar-info {
   text-align: center;
@@ -231,5 +239,45 @@
   .about-section-link,
   .latest-posts-section {
     flex: 1 1 100%; /* Take up full width on smaller screens */
+  }
+  .home-header h1 {
+    font-size: 2rem;
+  }
+
+  .home-header p {
+    font-size: 1rem;
+  }
+
+  .home-header .typed-text {
+    font-size: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .latest-posts-section h2 {
+    font-size: 1.8rem;
+  }
+  .latest-posts-section .blog-post-title {
+    font-size: 1.1rem; /* Adjust the font size for blog post titles on mobile */
+  }
+  .search-bar-info {
+    font-size: 1rem;
+  }
+
+  .contact-section h2 {
+    font-size: 1.5rem;
+  }
+  .contact-section p {
+    font-size: 1rem;
+  }
+
+  .contact-section .cta-button {
+    font-size: 0.9rem;
   }
 }

@@ -12,10 +12,10 @@ const Footer = () => {
           <img src={logo} alt="Dizzy Otter Logo" />
         </div>
         <div className="footer-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
           <a href="https://www.dizzyotterdesigns.com">Website</a>
-          <a href="#contact">Contact</a>
+          <a href="/contact">Contact</a>
         </div>
         <div className="footer-socials">
           <a href="https://www.instagram.com/dizzy_otter_designs/" target="_blank" rel="noopener noreferrer">

@@ -72,7 +72,7 @@ const Home = () => {
           <Link to="/about">
             <h2>About Us</h2>
           </Link>
-          <p>Learn more about our mission and the team behind Dizzy Otter Blog.</p>
+          <p>Welcome to Dizzy Otter Blog! I'm Charlie Swinhoe, the founder and director. We specialize in web development and design, sharing insights on building websites, creating designs, using AI, acquiring clients, sales strategies, and more. <Link to="/about">Learn more</Link></p>
         </section>
         <section className="latest-posts-section">
           <h2>Latest Posts</h2>

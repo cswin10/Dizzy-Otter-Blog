@@ -22,7 +22,7 @@ const Contact = () => {
     <div className="contact">
       <h1>Contact Us</h1>
       <p>If you have any questions or feedback, please feel free to reach out to us. We'd love to hear from you!</p>
-      <form className="contact-form" name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+      <form className="contact-form" name="contact" method="POST" data-netlify="true" netlify onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value="contact" />
         <label>
           Name:
