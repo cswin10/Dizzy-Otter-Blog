@@ -20,7 +20,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="Dizzy Otter Logo" />
+        <Link to="/" onClick={closeMobileMenu}>
+          <img src={logo} alt="Dizzy Otter Logo" />
+        </Link>
       </div>
       <div className={`navbar-center ${isMobileMenuOpen ? 'hide' : ''}`}>
         <div className="navbar-title">
@@ -40,10 +42,10 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/charlie-swinhoe-72b27834b/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=61574419310992" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/Dizzy_Otter_" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
@@ -55,7 +57,9 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faTimes} onClick={toggleMobileMenu} />
         </div>
         <div className="mobile-menu-logo">
-          <img src={logo} alt="Dizzy Otter Logo" />
+          <Link to="/" onClick={closeMobileMenu}>
+            <img src={logo} alt="Dizzy Otter Logo" />
+          </Link>
           <div className="mobile-menu-title">Dizzy Otter Blog</div>
         </div>
         <ul className="mobile-menu-links">
