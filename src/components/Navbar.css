@@ -9,7 +9,7 @@
 }
 
 .navbar-logo img {
-  height: 150px;
+  height: 200px;
 }
 
 .navbar-center {
@@ -66,7 +66,7 @@
 
 .navbar-socials {
   display: flex;
-  gap: 2rem;
+  gap: 1.2rem;
 }
 
 .navbar-socials a {

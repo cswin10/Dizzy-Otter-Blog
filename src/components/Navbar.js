@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../images/Untitled design (3).png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
@@ -40,8 +40,11 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/charlie-swinhoe-72b27834b/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://tiktok.com/@dizzyotter" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTiktok} />
+        <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTwitter} />
         </a>
       </div>
       <div className="navbar-hamburger" onClick={toggleMobileMenu}>
@@ -68,8 +71,11 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/charlie-swinhoe-72b27834b/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://tiktok.com/@dizzyotter" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTiktok} />
+          <a href="https://www.facebook.com/profile.php?id=61574419310992" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="https://x.com/Dizzy_Otter_" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>
       </div>

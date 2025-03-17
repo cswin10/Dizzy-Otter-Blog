@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import logo from '../images/Untitled design (3).png'; // Import the logo image
 
 const Footer = () => {
@@ -24,8 +24,11 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/charlie-swinhoe-72b27834b/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://tiktok.com/@dizzyotter" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTiktok} />
+          <a href="https://www.facebook.com/profile.php?id=61574419310992" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="https://x.com/Dizzy_Otter_" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
         </div>
       </div>
