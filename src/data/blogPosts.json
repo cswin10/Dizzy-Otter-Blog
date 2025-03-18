@@ -2,15 +2,8 @@
     {
       "id": 1,
       "title": "Welcome to Dizzy Otter Blog",
-      "content": "This is the first blog post content.",
+      "content": "Check this",
       "author": "Charlie Swinhoe",
-      "date": "March 11, 2025"
-    },
-    {
-      "id": 2,
-      "title": "Understanding Web Development",
-      "content": "This is the second blog post content.",
-      "author": "Charlie Swinhoe",
-      "date": "March 12, 2025"
+      "date": "March 18, 2025"
     }
   ]

@@ -217,6 +217,5 @@
 @media(max-width: 768px) {
   .navbar-logo img {
     height: 120px;
-    padding: 0;
   }
 }

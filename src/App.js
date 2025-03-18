@@ -10,7 +10,6 @@ import TermsAndConditions from './pages/TermsAndConditions';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-
 import './App.css';
 
 function App() {
