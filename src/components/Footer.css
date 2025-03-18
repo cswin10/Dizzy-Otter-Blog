@@ -16,20 +16,26 @@
     height: 100px;
   }
   
-  .footer-links {
+
+  .footer-links,
+  .footer-legal {
     display: flex;
-    gap: 1rem;
+    gap: 15px;
+    margin-bottom: 10px;
   }
   
-  .footer-links a {
-    color: white;
+  .footer-links a,
+  .footer-legal a {
+    color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    transition: color 0.3s;
   }
   
-  .footer-links a:hover {
-    text-decoration: underline;
+  .footer-links a:hover,
+  .footer-legal a:hover {
+    color: #ddd;
   }
+  
   
   .footer-socials {
     display: flex;

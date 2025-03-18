@@ -17,6 +17,8 @@ const Footer = () => {
           <Link to="/about">About</Link>
           <a href="https://www.dizzyotterdesigns.com">Website</a>
           <Link to="/contact">Contact</Link>
+        </div>
+        <div className="footer-legal">
           <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/terms-and-conditions">Terms and Conditions</Link>
         </div>
