@@ -18,6 +18,7 @@ const Footer = () => {
           <a href="https://www.dizzyotterdesigns.com">Website</a>
           <Link to="/contact">Contact</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link to="/terms-and-conditions">Terms and Conditions</Link>
         </div>
         <div className="footer-socials">
           <a href="https://www.instagram.com/dizzy_otter_designs/" target="_blank" rel="noopener noreferrer">

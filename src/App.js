@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import BlogPostDetail from './components/BlogPostDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import TermsAndConditions from './pages/TermsAndConditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -42,6 +44,8 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/terms-and-conditions" component={TermsAndConditions} />
+
         </Switch>
         <Footer />
       </div>
