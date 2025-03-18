@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import parse from 'html-react-parser';
 import blogPosts from '../data/blogPosts.json';
 import './BlogPostDetail.css';
 
@@ -19,7 +20,7 @@ const BlogPostDetail = () => {
         <span className="blog-post-date">{post.date}</span>
       </div>
       <div className="blog-post-content">
-        {post.content}
+        {parse(post.content)}
       </div>
     </div>
   );
