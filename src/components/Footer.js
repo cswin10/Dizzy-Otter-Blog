@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -12,10 +13,11 @@ const Footer = () => {
           <img src={logo} alt="Dizzy Otter Logo" />
         </div>
         <div className="footer-links">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
           <a href="https://www.dizzyotterdesigns.com">Website</a>
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
+          <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
         <div className="footer-socials">
           <a href="https://www.instagram.com/dizzy_otter_designs/" target="_blank" rel="noopener noreferrer">
@@ -30,7 +32,6 @@ const Footer = () => {
           <a href="https://x.com/Dizzy_Otter_" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="></a>
         </div>
       </div>
       <div className="footer-bottom">

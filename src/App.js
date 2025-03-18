@@ -41,6 +41,7 @@ function App() {
           <Route path="/blog/:id" component={BlogPostDetail} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
         </Switch>
         <Footer />
       </div>
