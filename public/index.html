@@ -5,10 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Dizzy Otter Blog - dizzyotter.com"
-    />
+    <meta name="description" content="Dizzy Otter Blog - dizzyotter.com" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Dizzy Otter Blog</title>
@@ -16,5 +13,22 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- Hidden static version of the form for Netlify detection -->
+    <form name="contact" method="POST" data-netlify="true" netlify hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <label>
+        Name:
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Message:
+        <textarea name="message"></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
   </body>
 </html>
