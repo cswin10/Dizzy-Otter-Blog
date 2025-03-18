@@ -87,8 +87,13 @@
 .navbar-hamburger {
   display: none;
   cursor: pointer;
+  transition: var(--transition);
 }
 
+.navbar-hamburger:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
 .navbar-hamburger .svg-inline--fa {
   font-size: 2rem;
   transition: var(--transition);

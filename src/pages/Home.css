@@ -81,6 +81,15 @@
   color: black;
   line-height: 2;
 }
+.about-section a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
 .latest-posts-section {
   flex: 2; /* Take up 2/3 of the width */
   background-color: white;

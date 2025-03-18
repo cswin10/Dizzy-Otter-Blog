@@ -30,6 +30,7 @@ const Footer = () => {
           <a href="https://x.com/Dizzy_Otter_" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
+          <a href="></a>
         </div>
       </div>
       <div className="footer-bottom">
